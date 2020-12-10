@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GCP_PubSub</fullName>
+    <description>Used to publish messages to PubSub</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://pubsub.googleapis.com</url>
+</RemoteSiteSetting>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformCachePartition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom partition for storing the GCP Access token </description>
+    <isDefaultPartition>false</isDefaultPartition>
+    <masterLabel>gcpPartition</masterLabel>
+    <platformCachePartitionTypes>
+   ​​     <allocatedCapacity>0</allocatedCapacity>
+        <cacheType>Session</cacheType>
+    </platformCachePartitionTypes>
+    <platformCachePartitionTypes>
+    ​​    <allocatedCapacity>1</allocatedCapacity>
+        <cacheType>Organization</cacheType>
+    </platformCachePartitionTypes>​
+</PlatformCachePartition> 

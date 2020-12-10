@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Prod_GCP_PubSub_Cases</label>
+    <protected>false</protected>
+    <values>
+        <field>Client_Email__c</field>
+        <value xsi:type="xsd:string">prod-salesforce-alex@alex-prod-project.iam.gserviceaccount.com</value>
+    </values>
+    <values>
+        <field>Pubsub_Endpoint__c</field>
+        <value xsi:type="xsd:string">https://pubsub.googleapis.com/v1/projects/alex-prod-project/topics/prod-alex-salesforce-cases:publish</value>
+    </values>
+    <values>
+        <field>Token_Endpoint__c</field>
+        <value xsi:type="xsd:string">https://www.googleapis.com/oauth2/v4/token</value>
+    </values>
+</CustomMetadata>
